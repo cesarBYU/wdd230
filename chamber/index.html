@@ -8,29 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=Montserrat:ital@1&family=Noto+Serif&family=Rubik&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="icon" href="images/favicon.ico">
 
     <title>Chamber of Commerce Caracas</title>
 </head>
 <body>
     <header>
-            
-
-        <img class = "logo "src="images/caracas-chamber-of-commerce-logo.png" alt="">
+        <div class = "banner">
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </div>
+        <h1>Chamber of Caracas</h1>
+        <div class="logo-icons-navbar">
+            <img class ="logo" src="images/caracas-chamber-of-commerce-logo.png" alt="Caracas Chamber Logo">
 
             <div class="icons-container">
-              <a href="https://facebook.com" target="_blank">
-                <img class="social-logo" src="images/facebook.png" alt="fb icon">
-              </a>
-              <a href="https://twitter.com" target="_blank">
-                <img class="social-logo" src="images/twitter.png" alt="twitter icon">
-              </a>
+                <a href="https://facebook.com" target="_blank">
+                  <img class="social-logo" src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <img src= "images/twitter.png" alt= "twitter icon" class= "social-logo">
+                </a>
             </div>
-
             <nav>
                 <button id='hamburgerbutton'><span>&#9776;</span><span>X</span></button>
                 <ul id='primaryNav'>
@@ -41,48 +43,88 @@
                     <li><a href="#">Contact</a></li>    
                 </ul>
             </nav>
-
+        </div>
         <div class="datetime"></div>
     </header>
 
-    
-
-
-
     <main>
 
-        <section class="hero"> hero with the site name and call to action</section>
-        <section class="event"> Event</section>
-        <section class="weather"> Weather</section>
-        <section class="new-release"> New Release</section>
-        <section class="join">Join</section>
+        <section class="hero"> 
+            <img src="images/caracas3.jpg" alt="Caracas background banner">
+            <h1 class="welcome">Welcome to Caracas</h1>
+            <button class="join-button"> JOIN THE CHAMBER </button>
+        </section>
+        <section class="event"> 
+            <h2 class="section-title"> "knowing my rights"</h2>
+            <img src="images/law.png" class= "section-img" alt="judge gavel">
+            <p class="sections-p">
+                attend the next event that will teach you all
+                your rights as a business owner in Caracas.</p>
+            <a href="#">more info</a>       
+        </section>
+        <section class="weather"> 
+            <h2 class="section-title">Weather</h2>
+            <img src="images/weather.png" class= "section-img" alt="weather">
+            <p class="sections-p">
+                dis fugit quam libero ducimus 
+                 id laborum vel, eius exercitationem ullam blanditiis quisquam
+                 illo deleniti explicabo provident ipsam.
+            </p>
+        </section>
+
+        <section class="new-release">
+            <h2 class="section-title"> New Release</h2>
+            <p class="sections-p">earum dolores nostrum 
+                itae in itaque, dolorem, rerum dignissimos! Optio, tempora.</p>
+
+        </section>
+        <section class="join">
+            <h2 class="section-title"> Join Us</h2>
+            <p class="sections-p">Lorem ipsum domnis nobis incidunt 
+                explicabo atque quo a repellendus </p> 
+        </section>
         <section class="spotlights">
-            <section> Spotlight 1</section>
-            <section> Spotlight 2</section>
-            <section> Spotlight 3</section>
+            <section class="Spotlight"> 
+                <h2>Spotlight</h2>
+                <img src="images/Spotlight1.png" class= "section-img" alt="truck">
+                <p class="sections-p">Lorem ipsumdolores omnis nobis incidunt 
+                    explicabo atque quo a repellendus .</p>
+            </section>
+            <section class="Spotlight"> 
+                <h2>Spotlight</h2>
+                <img src="images/spotlight2.png"  class= "section-img" alt="gift">
+                <p class="sections-p">Lorem ipsum dolor  nobis incidunt 
+                    explicabo atque quo a repellendus e.</p>
+            </section>
+            <section class="Spotlight">
+                <h2>Spotlight</h2>
+                <p class="sections-p">Lorem ipsit, amet consect
+                    etur adipisicing elit. Odit recusandae ullam consectetur magni
+                    commodi possimus quam architaxime ab earum dolores nostrum 
+                </section>
         </section>
     </main>
     <footer>
 
         <div class="top-footer">
-            <img class = "logo "src="images/caracas-chamber-of-commerce-logo.png" alt="logo">
+            <img class = "logo " src="images/caracas-chamber-of-commerce-logo.png" alt="logo">
 
             <div class="contact-info1"> 
-                <h2>Caracas Chamber Of Commerce</h2>
-                <h3>G423+R49, Av Este 2, Caracas</h3>
-                <h3>1011, Distrito Capital</h3>
+                <h3>Caracas Chamber Of Commerce</h3>
+                <h4>G423+R49, Av Este 2, Caracas</h4>
+                <h4>1011, Distrito Capital</h4>
             </div>
 
             <div class="contact-info2">
-                <h3>caracas@chamberofcommercer.ve</h3>
-                <h3>+(212) 702 079 90</h3>
-                <h3><span class="location"> <a href="https://goo.gl/maps/8U5nhQ7w5yncWejA8">Location Map</a></span></h3>
+                <h4>caracas@chamberofcommercer.ve</h4>
+                <h4>+(212) 702 079 90</h4>
+                <h4><span class="location"> <a href="https://goo.gl/maps/8U5nhQ7w5yncWejA8">Location Map</a></span></h4>
             </div>
         </div>
          <div class="bottom-footer">
                 <p class="year">&copy;</p>
                 <p>Caracas Chamber of Commerce</p>
-                <h3>Cesar Grados</h3>
+                <h4>Cesar Grados</h4>
                 <p>WDD230 Project</p>
                 <p >Last modification: <span class="last-modification"></span></p>
         </div>

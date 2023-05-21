@@ -45,4 +45,7 @@ let formattedDate = weekDay + ', ' + monthString + ' ' + dayDate + ' ' + year
 document.querySelector(".datetime").textContent = formattedDate;
 
 
-console.log(dayNumber);
+//banner
+if (dayNumber == 1 || dayNumber == 2) {
+    document.querySelector(".banner").classList.toggle("showBanner");
+}
