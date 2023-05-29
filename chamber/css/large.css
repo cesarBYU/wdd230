@@ -6,8 +6,12 @@
         font-size: 2.2rem;
     }
 
-    h4 {
+    h3 {
         font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
     }
     /*HEADER*/
     .logo-icons-navbar {
@@ -59,7 +63,6 @@
         top: 50px;
         font-size: 1rem;
         right: 25%;
-        background-color:#b8336a;
         width: 50%;
         border: none;
         border-radius: 20%;

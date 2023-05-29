@@ -184,10 +184,11 @@ section {
     top: 30px;
     font-size: 0.75rem;
     right: 25%;
-    background-color:#b8336a;
+    background-color: black;
     width: 50%;
     border-radius: 20%;
     cursor: pointer;
+    color: antiquewhite;
 }
 
 .join-button a {
