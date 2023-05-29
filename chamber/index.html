@@ -17,13 +17,19 @@
     <title>Chamber of Commerce Caracas</title>
 </head>
 <body>
+    <div class = "banner">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
     <header>
-        <div class = "banner">
-            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-        </div>
         <h1>Chamber of Caracas</h1>
-        <div class="logo-icons-navbar">
-            <img class ="logo" src="images/caracas-chamber-of-commerce-logo.png" alt="Caracas Chamber Logo">
+      <div class="logo-icons-navbar">
+        
+            <picture class="logo">
+                <source srcset="images/logoLarge.webp" media="(min-width: 64rem)">
+                <source srcset="images/logoMedium.webp" media="(min-width: 35rem)">
+                <img src="images/logoSmall.webp" alt="logo"> 
+            </picture>
+
 
             <div class="icons-container">
                 <a href="https://facebook.com" target="_blank">
@@ -50,64 +56,100 @@
     <main>
 
         <section class="hero"> 
-            <img src="images/caracas3.jpg" alt="Caracas background banner">
-            <h1 class="welcome">Welcome to Caracas</h1>
+            <picture >
+                <source srcset="images/temporalbackgroundLARGE.webp" media="(min-width: 64rem)">
+                <source srcset="images/temporalbackgroundMEDIUM.webp" media="(min-width: 35rem)">
+                <img src="images/temporalbackgroundSMALL.webp" alt="temporalBackround"> 
+            </picture>
+
+            <h2 class="welcome">Welcome to Caracas</h2>
             <button class="join-button"> JOIN THE CHAMBER </button>
         </section>
+
+
         <section class="event"> 
             <h2 class="section-title"> "knowing my rights"</h2>
-            <img src="images/law.png" class= "section-img" alt="judge gavel">
+
+            <picture class="section-img">
+                <source srcset="images/lawLarge.webp" media="(min-width: 64rem)">
+                <source srcset="images/lawMedium.webp" media="(min-width: 35rem)">
+                <img src="images/lawSmall.webp" alt="LawImage"> 
+            </picture>
             <p class="sections-p">
-                attend the next event that will teach you all
+                Attend the next event that will teach you all
                 your rights as a business owner in Caracas.</p>
-            <a href="#">more info</a>       
+            <a href="#" class="links">more info</a>       
         </section>
+        
         <section class="weather"> 
             <h2 class="section-title">Weather</h2>
-            <img src="images/weather.png" class= "section-img" alt="weather">
-            <p class="sections-p">
-                dis fugit quam libero ducimus 
-                 id laborum vel, eius exercitationem ullam blanditiis quisquam
-                 illo deleniti explicabo provident ipsam.
-            </p>
+            <picture class="section-img">
+                <source srcset="images/weatherLarge.webp" media="(min-width: 64rem)">
+                <source srcset="images/weatherMedium.webp" media="(min-width: 35rem)">
+                <img src="images/weatherSmall.webp" alt="watherImage">
+            </picture>
+            <span class="temperature"></span>
+            <p class="sections-p">Wind Speed: <span class="windSpeed"></span> km/h</p>
+            <p class="sections-p">Wind Chill: <span class="windChill"></span></p>
         </section>
 
         <section class="new-release">
             <h2 class="section-title"> New Release</h2>
-            <p class="sections-p">earum dolores nostrum 
-                itae in itaque, dolorem, rerum dignissimos! Optio, tempora.</p>
+            <p class="sections-p">
+                German investors came to the country with the intention of investing in medium-sized businesses, the date for the event that will take place in the main theater is about to be announced. Benefits 
+                will come for medium-sized companies that meet the necessary requirements. </p>
+                <a href="#" class="links"> find out here</a>
 
         </section>
         <section class="join">
             <h2 class="section-title"> Join Us</h2>
-            <p class="sections-p">Lorem ipsum domnis nobis incidunt 
-                explicabo atque quo a repellendus </p> 
+            <p class="sections-p">Join us to help organize our economy. We invite you to join, it is easy and simple</p> 
         </section>
-        <section class="spotlights">
+
+
+
+        <div class="spotlights">
             <section class="Spotlight"> 
-                <h2>Spotlight</h2>
-                <img src="images/Spotlight1.png" class= "section-img" alt="truck">
-                <p class="sections-p">Lorem ipsumdolores omnis nobis incidunt 
-                    explicabo atque quo a repellendus .</p>
+                <h2>Cargo Service</h2>
+                <picture class="section-img">
+                    <source srcset="images/CargoServiceLarge.webp" media="(min-width: 64rem)">
+                    <source srcset="images/CargoServiceMedium.webp" media="(min-width: 35rem)">
+                    <img src="images/CargoServiceSmall.webp" alt="TruckImage">
+                </picture>
+                <p class="sections-p">Do you need transportation to continue with your business operations without problems? We offer transportation service, you can count on us. .</p>
             </section>
+
             <section class="Spotlight"> 
-                <h2>Spotlight</h2>
-                <img src="images/spotlight2.png"  class= "section-img" alt="gift">
-                <p class="sections-p">Lorem ipsum dolor  nobis incidunt 
-                    explicabo atque quo a repellendus e.</p>
+                <h2>enjoy the benefits</h2>
+                <picture class="section-img">
+                    <source srcset="images/giftsLarge.webp" media="(min-width: 64rem)">
+                    <source srcset="images/giftsMedium.webp" media="(min-width: 35rem)">
+                    <img src="images/giftsSmall.webp" alt="GiftImage">
+                </picture>
+                <p class="sections-p">Members of our chamber receive regular benefits.</p>
             </section>
+
+
             <section class="Spotlight">
-                <h2>Spotlight</h2>
-                <p class="sections-p">Lorem ipsit, amet consect
-                    etur adipisicing elit. Odit recusandae ullam consectetur magni
-                    commodi possimus quam architaxime ab earum dolores nostrum 
-                </section>
-        </section>
+                <h2>Learn Here</h2>
+                <picture class="section-img">
+                    <source srcset="images/learnLarge.webp" media="(min-width: 64rem)">
+                    <source srcset="images/learnMedium.webp" media="(min-width: 35rem)">
+                    <img src="images/learnSmall.webp" alt="bookImage">
+                </picture>              
+                <p class="sections-p"> Receive constant training on business-related issues </p>
+            </section>
+        </div>
     </main>
     <footer>
 
         <div class="top-footer">
-            <img class = "logo " src="images/caracas-chamber-of-commerce-logo.png" alt="logo">
+            <picture class="logo">
+                <source srcset="images/logoLarge.webp" media="(min-width: 64rem)">
+                <source srcset="images/logoMedium.webp" media="(min-width: 35rem)" >
+                <img src="images/logoSmall.webp" alt="logo"> 
+            </picture>
+
 
             <div class="contact-info1"> 
                 <h3>Caracas Chamber Of Commerce</h3>
