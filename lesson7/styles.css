@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+
+picture {
+    display: block;
+    padding: 20px;
+}
+main {
+    text-align: center;
+}
+
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 3s;
+  }
